@@ -12,6 +12,18 @@ https://papa-reddit-midvl.ondigitalocean.app/
 - Subs: a list of subreddits space separated (`all` is default).
 - Words: a list of words to match in the title or comment's body, these are space separated.
 
+### Motivation
+This tool was designed to quickly analyze and skim over comments made on Reddit, which can be useful for research, marketing and sales.
+
+Using Reddit's website directly can be slow and contains a lot of noise (colors, pictures, ads, etc.). This solution tries to minimize the noise to a minimum.
+
+
 ## Installation
 Clone, fork or download this repository.
 Host or open `index.html` in your browser.
+
+## Devs
+
+This solution was built using JavaScript/jQuery with HTML/CSS. You can easily extend it with new features (pattern matching, NLP, ML, etc.).
+
+You can also use parts of the code in NodeJS if you wish to centralize the API calls and/or data analysis.
