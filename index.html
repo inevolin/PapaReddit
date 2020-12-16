@@ -43,16 +43,24 @@
     .status {
       margin-top: 10px;
     }
+
+    form {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    form div {
+      margin-right: 10px;
+    }
   </style>
 </head>
 <body>
   <form>
-    <span>Limit:</span> <input id="limit" placeholder="30" type="number" value="30" min="1" max="1000">
+    <div><span>Limit:</span> <input id="limit" placeholder="30" type="number" value="30" min="1" max="1000"></div>
     &nbsp;&nbsp;
-    <span>Sub(s):</span> <input id="subreddits" placeholder="all programming aquarium ...">
+    <div><span>Sub(s):</span> <input id="subreddits" placeholder="all programming aquarium ..."></div>
     &nbsp;&nbsp;
-    <span>Word(s):</span> <input id="filters" placeholder="idea business niche ...">
-    <button id="update">update</button>
+    <div><span>Word(s):</span> <input id="filters" placeholder="idea business niche ..."></div>
+    <div><button id="update">update</button></div>
   </form>
   <p class="status"></p>
   <table class="coms"></table>
