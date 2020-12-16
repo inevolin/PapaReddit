@@ -2,7 +2,7 @@
 An easy and minimalistic Reddit comments scraper, analyzer and reader that runs on any device in the browser.
 
 ## Demo
-https://papa-reddit-midvl.ondigitalocean.app/
+https://nevolin.be/papareddit/ - or - https://papa-reddit-midvl.ondigitalocean.app/
 
 ![screenshot](/assets/d1.png)
 
