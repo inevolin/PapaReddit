@@ -26,7 +26,9 @@ function loadPosts() {
     console.log('found: ' + data.data.children.length + ' items')
     let i = 0;
     for (const o of data.data.children) {
-      const c = o.data
+      const c = o.data;
+
+      if (c.over_18) continue; // keep it family friendly
 
       // show only matching filter
       const filters = $('#filters').val().split(' ').map(x => x.trim()).filter(x=> x.length > 0)
