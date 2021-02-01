@@ -2,7 +2,7 @@
 An easy and minimalistic Reddit comments scraper, analyzer and reader that runs on any device in the browser.
 
 ## Demo
-https://nevolin.be/papareddit/ - or - https://papa-reddit-midvl.ondigitalocean.app/
+https://nevolin.be/papareddit/ 
 
 ![screenshot](/assets/d1.png)
 
@@ -27,3 +27,11 @@ Host or open `index.html` in your browser.
 This solution was built using JavaScript/jQuery with HTML/CSS. You can easily extend it with new features (pattern matching, NLP, ML, etc.).
 
 You can also use parts of the code in NodeJS if you wish to centralize the API calls and/or data analysis.
+
+## Contact
+
+For enquiries or issues get in touch with me:
+
+Name: [Ilya Nevolin](https://www.linkedin.com/in/iljanevolin/)
+
+Email: ilja.nevolin@gmail.com
